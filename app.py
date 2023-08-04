@@ -41,7 +41,8 @@ if __name__ == "__main__":
     url = f"https://api.the{pet}api.com/v1/images/search"
 
     response = conn.query(url, params=params, ttl=60 * 60)
-    for index, pet in enumerate(shuffle(response.json())):
+    shuffle(response.json())
+    for index, pet in enumerate(response.json()):
         c1, c2, c3 = st.columns([0.5, 4, 3])
         breeds = pet["breeds"][0]
         c1.code(index + 1)
