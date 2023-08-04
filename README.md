@@ -16,8 +16,8 @@
 StreamPet is a fun and interactive Streamlit application that connects to cat and dog image APIs to fetch images and information about different cat and dog breeds. Users can choose their preferred pet type, select specific breeds, set the count of images to display, and explore additional details about the selected breeds.
 
 <div style="display: flex;">
-  <img src="assets/1.png"  style="width: 45%; margin-right: 10px;">
-  <img src="assets/2.png"  style="width: 45%;">
+  <img src="assets/1.png"  style="width: 75%; margin-right: 10px;">
+  <img src="assets/2.png"  style="width: 75%;">
 </div>
 
 
