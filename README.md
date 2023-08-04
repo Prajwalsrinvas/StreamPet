@@ -64,7 +64,9 @@ The StreamPet application interface is divided into sections:
 
 - **Main Display**: The main section of the app displays the images and details of the selected breeds based on your preferences.
 
-## Code Structure
+
+<details>
+<summary><h2>Code Structure</h2></summary>
 
 ### `app.py`
 
@@ -133,3 +135,5 @@ This configuration file stores the API keys for the cat and dog APIs. It's impor
 ### `requirements.txt`
 
 This file lists the Python packages required for the project. You can use it to create a virtual environment or install the packages directly using `pip`.
+
+</details>
