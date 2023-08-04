@@ -47,6 +47,7 @@ if __name__ == "__main__":
         c2.image(caption=breeds["name"], image=pet["url"], use_column_width=True)
         del breeds["id"]
         del breeds["name"]
-        del breeds["reference_image_id"]
+        if 'reference_image_id' in breeds:
+            del breeds["reference_image_id"]
         df = pd.json_normalize(breeds)
         c3.dataframe(df.T, use_container_width=True)
