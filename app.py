@@ -14,10 +14,9 @@ def get_breeds(pet):
 
 
 if __name__ == "__main__":
-    page_title = "🐶StreamPet🐱"
-    st.set_page_config(page_title=page_title, page_icon="🐶", layout="wide")
+    st.set_page_config(page_title="StreamPet", page_icon="🐶", layout="wide")
     st.markdown(
-        f'<h1 style="text-align: center;">{page_title}</h1><br>', unsafe_allow_html=True
+        '<h1 style="text-align: center;">🐶StreamPet🐱</h1><br>', unsafe_allow_html=True
     )
 
     pet = st.sidebar.radio("Choose Pet:", options=["🐶", "🐱"], horizontal=True)
