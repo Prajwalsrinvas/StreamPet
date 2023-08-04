@@ -18,6 +18,8 @@ StreamPet is a fun and interactive Streamlit application that connects to cat an
 ![img](assets/1.png)
 ![img](assets/2.png)
 
+This project was built as part of the [Streamlit Connections Hackathon](https://discuss.streamlit.io/t/connections-hackathon/47574).
+
 ## Installation
 
 1. Clone the repository to your local machine:
@@ -137,3 +139,11 @@ This configuration file stores the API keys for the cat and dog APIs. It's impor
 This file lists the Python packages required for the project. You can use it to create a virtual environment or install the packages directly using `pip`.
 
 </details>
+
+
+## References
+
+- https://blog.streamlit.io/introducing-st-experimental_connection/
+- https://www.youtube.com/watch?v=xQwDfW7UHMo
+- https://experimental-connection.streamlit.app/Build_your_own
+- https://docs.streamlit.io/library/advanced-features/connecting-to-data
