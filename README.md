@@ -10,6 +10,7 @@
   - [Running the App](#running-the-app)
   - [App Interface](#app-interface)
 - [Code Structure](#code-structure)
+- [References](#references)
 
 ## Introduction
 
@@ -19,6 +20,16 @@ StreamPet is a fun and interactive Streamlit application that connects to cat an
 ![img](assets/2.png)
 
 This project was built as part of the [Streamlit Connections Hackathon](https://discuss.streamlit.io/t/connections-hackathon/47574).
+
+The connection to the Dog and Cat API is made using [st.experimental_connection](https://docs.streamlit.io/library/api-reference/connections/st.experimental_connection) as follows:
+
+```python
+from connection import StreamPetConnection
+conn = st.experimental_connection("StreamPet", type=StreamPetConnection, pet=pet) # pet is either "cat" or "dog"
+response = conn.query(url, params=params, ttl=60 * 60) # url is the Cat/Dog API endpoint, params are the parameters to be sent the API, ttl is data cache ttl
+```
+
+st.experimental_connection is used to quickly and easily connect an app to data and APIs.
 
 ## Installation
 
