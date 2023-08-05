@@ -26,7 +26,7 @@ The connection to the Dog and Cat API is made using [st.experimental_connection]
 ```python
 from connection import StreamPetConnection
 conn = st.experimental_connection("StreamPet", type=StreamPetConnection, pet=pet) # pet is either "cat" or "dog"
-response = conn.query(url, params=params, ttl=60 * 60) # url is the Cat/Dog API endpoint, params are the parameters to be sent the API, ttl is data cache ttl
+response = conn.query(url, params=params, ttl=60 * 60) # url is the Cat/Dog API endpoint, params are the parameters to be sent to the API, ttl is data cache ttl
 ```
 
 st.experimental_connection is used to quickly and easily connect an app to data and APIs.
