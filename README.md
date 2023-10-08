@@ -5,7 +5,7 @@
 <details>
   <summary>Swag🧥</summary>
   
-  <img src="swag.jpg" alt="Hoodie" width="35%">
+  <img src="swag.png" alt="Hoodie" width="35%">
 </details>
 
 
