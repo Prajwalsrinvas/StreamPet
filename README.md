@@ -2,6 +2,14 @@
 
 [StreamPet](https://streampet.streamlit.app/) is a Streamlit application that allows users to explore images and information of cats and dogs based on their selected preferences.
 
+<details>
+  <summary>Swag🧥</summary>
+  
+  <img src="swag.jpg" alt="Hoodie" width="35%">
+</details>
+
+
+
 ## Table of Contents
 
 - [Introduction](#introduction)
